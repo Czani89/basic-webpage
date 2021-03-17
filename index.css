@@ -1,0 +1,30 @@
+body{
+    background:rgb(65, 62, 62);
+}
+
+a{
+    padding: 2rem 5rem;
+    background-color: steelblue;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 5rem ;
+    
+}
+
+.pages{
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+a:hover{
+    border: solid .3rem black
+    
+}
+h1{
+    text-align: center;
+    color: white;
+}

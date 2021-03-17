@@ -1,0 +1,97 @@
+table,td, th{
+    border: solid .2rem black;
+  }
+  
+  table{
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+  table th{
+    color: steelblue;
+  }
+  table td{
+      font-size: 85%;
+  }
+  .museum{
+    height: 100%;
+  }
+  p{
+    padding: 0px;
+  
+  }
+  .museum-text, .castle-text, .hall-text{
+    width: 75%;
+    height: auto;
+  }
+  
+  .history ul{
+      padding-inline-start: 0px ;
+      font-size: 80%;
+  }
+
+.castle{
+      object-position: center;
+      margin: 0rem;
+  }
+  
+
+  .row p{
+      font-size: 1rem;
+  }
+
+  .name{
+      display: inline-block;
+      background: rgb(65, 62, 62);
+      justify-content: space-between;
+  }
+  row .mountain{
+      position: absolute;
+  }
+
+  .name h1{
+    color: white;
+    margin: 6px 0px;   
+}
+
+.container{
+    background: whitesmoke;
+}
+
+.hall-container, .castle-container{
+    background-color: rgb(65, 62, 62);
+    width: 100%;
+    margin: auto;
+}
+.history li{
+    color: white; 
+    list-style-type: square;
+    
+}
+
+.museum-container{
+    background-color: steelblue;
+    width: 100%;
+    margin: auto;
+}
+.history img{
+    width: 100%;
+
+}
+
+.history{
+    height: auto;
+    width: auto;
+    background: rgb(65, 62, 62);
+}
+h3{
+    color: white;
+}
+
+h2{
+    color: steelblue;
+    text-align: center;
+}
+h1{
+    width: 50%;
+}
