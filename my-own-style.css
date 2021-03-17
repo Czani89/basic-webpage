@@ -81,7 +81,7 @@ table,td, th{
 
 .history{
     height: auto;
-    width: auto;
+    width: 100%;
     background: rgb(65, 62, 62);
 }
 h3{

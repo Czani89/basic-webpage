@@ -95,7 +95,7 @@ table{
 }
 
 .first_place_text li, .second_place_text li, .third_place_text li{
-    font-size: 65%;
+    font-size: 75%;
 }
 
 .second_place{
@@ -127,7 +127,7 @@ table{
     }
 
     .first_place_text li, .second_place_text li, .third_place_text li{
-        font-size: 65%;
+        font-size: 75%;
     }
     
     
