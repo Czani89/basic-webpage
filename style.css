@@ -27,6 +27,10 @@
     margin: auto;
 }
 
+img{
+    display: block;
+}
+
 .name-text{
     padding: 1rem;
     color: white;
@@ -41,6 +45,7 @@ h1{
     padding: .5rem 2rem;
     width: 50%;
     font-size: 75;
+    text-align: center;
 }
 h3{
     text-align: center;
@@ -51,9 +56,18 @@ h3{
   
 }
 
+.city-image{
+    margin: auto;
+    padding-right:2%;
+}
+
 .city-text{
     width: 100%;
-    padding-left: 2% ;
+    padding-left:2%;
+    margin: auto;
+}
+.city img{
+    width: 100%;
 }
 
 table,td, th{
@@ -62,7 +76,8 @@ table,td, th{
 
 table{
     border-collapse: collapse;
-    width: 70%;
+    width: 95%;
+    margin: auto;
 }
 
 .th{
@@ -81,34 +96,43 @@ table{
 }
 
 .first_place_image, .second_place_image, .third_place_image{
-    width: 100%;
-    height: auto; 
-    margin: auto;; 
+    width: 50%; 
+    margin: auto;
 }
 
 
 .first_place_text, .third_place_text{
-
-    padding-top: 0rem;
+    width: 50%;
     color: white;
+    margin: auto;
+
 
 }
 
 .first_place_text li, .second_place_text li, .third_place_text li{
-    font-size: 75%;
+    font-size: 16px;
+    list-style: none;
 }
-
-.second_place{
-    background-color: steelblue;
-}
-
 .second_place_text{
+    width: 50%;
     color: white;
+    margin: auto;
 
+}
+
+.second_place {
+    background-color: steelblue;
+    margin-bottom: 2rem;
 }
 
 .places img{
     width: 80%;
+    padding: 1rem;
+}
+
+.places h4{
+    padding-top: 0px;
+    text-align: center;
 }
 
 @media(min-width: 800px){
@@ -127,7 +151,7 @@ table{
     }
 
     .first_place_text li, .second_place_text li, .third_place_text li{
-        font-size: 75%;
+        font-size: 16px;
     }
     
     
@@ -147,14 +171,20 @@ table{
 .places ul{
     padding-inline-start: 40px;
 }
+.places img{
+    padding:0rem;
+ }
 
 .first_place_text, .second_place_text, .third_place_text{
     width: 100%;
+    margin: 0px;
 }
 
 .first_place_image, .second_place_image, .third_place_image{
     width: 100%;
+    margin: 0px 16px;
     margin: auto;
+    
 }
 .places ul{
     font-size: 65%;

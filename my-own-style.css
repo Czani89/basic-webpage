@@ -1,3 +1,20 @@
+
+.city{
+    width: 100%;
+
+}
+.city-text{
+    width: 100%;
+}
+ .city h4{
+     margin-top: 0px;
+ }
+
+.city img {
+    width: 100%;
+
+}
+
 table,td, th{
     border: solid .2rem black;
   }
@@ -13,84 +30,81 @@ table,td, th{
   table td{
       font-size: 85%;
   }
-  .museum{
-    height: 100%;
-  }
+ 
   p{
     padding: 0px;
-  
   }
   .museum-text, .castle-text, .hall-text{
     width: 75%;
     height: auto;
   }
   
-  .history ul{
-      padding-inline-start: 0px ;
-      font-size: 80%;
-  }
-
-.castle{
-      object-position: center;
-      margin: 0rem;
-  }
-  
-
   .row p{
       font-size: 1rem;
   }
 
   .name{
-      display: inline-block;
       background: rgb(65, 62, 62);
-      justify-content: space-between;
-  }
-  row .mountain{
-      position: absolute;
   }
 
   .name h1{
     color: white;
-    margin: 6px 0px;   
+    margin: 6px 0px;  
+    text-align: center; 
 }
+
+.text{
+    width: 50%;
+}
+ .mountain{
+     width: 50%;
+ }
 
 .container{
     background: whitesmoke;
-}
-
-.hall-container, .castle-container{
-    background-color: rgb(65, 62, 62);
-    width: 100%;
-    margin: auto;
-}
-.history li{
-    color: white; 
-    list-style-type: square;
-    
-}
-
-.museum-container{
-    background-color: steelblue;
-    width: 100%;
-    margin: auto;
-}
-.history img{
-    width: 100%;
-
 }
 
 .history{
     height: auto;
     width: 100%;
     background: rgb(65, 62, 62);
+    
 }
+
+.history img{
+    width: 100%;
+}
+
+.hall-container, .castle-container{
+    background-color: rgb(65, 62, 62);
+    width: 100%;
+   
+}
+
+.museum-container{
+    background-color: steelblue;
+    width: 100%;
+    
+}
+
+.history p{
+    color: white;
+    
+}
+
+.history img{
+    margin-top: 6rem;
+}
+
 h3{
     color: white;
+    margin-top:0% ;
+    text-align: ;
 }
 
 h2{
     color: steelblue;
-    text-align: center;
+    text-align:  center;
 }
 h1{
     width: 50%;
