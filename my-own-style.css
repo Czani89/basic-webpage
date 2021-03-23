@@ -35,10 +35,12 @@ table,td, th{
     padding: 0px;
   }
   .museum-text, .castle-text, .hall-text{
-    width: 75%;
-    height: auto;
+    width: 46%;
   }
   
+  .museum, .castle, .hall{
+    width: 46%;
+  }
   .row p{
       font-size: 1rem;
   }
@@ -47,14 +49,19 @@ table,td, th{
       background: rgb(65, 62, 62);
   }
 
+  .name{
+    background: rgb(65, 62, 62);
+}
   .name h1{
     color: white;
     margin: 6px 0px;  
     text-align: center; 
+    margin: auto;
 }
 
 .text{
     width: 50%;
+    margin: auto;
 }
  .mountain{
      width: 50%;
@@ -77,13 +84,14 @@ table,td, th{
 
 .hall-container, .castle-container{
     background-color: rgb(65, 62, 62);
-    width: 100%;
+    width: 96%;
+    margin: 0;
    
 }
 
 .museum-container{
     background-color: steelblue;
-    width: 100%;
+    width: 96%;
     
 }
 
@@ -99,7 +107,6 @@ table,td, th{
 h3{
     color: white;
     margin-top:0% ;
-    text-align: ;
 }
 
 h2{
