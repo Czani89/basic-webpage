@@ -89,14 +89,14 @@ table,td, th{
     background-color: rgb(65, 62, 62);
     width: 96%;
     margin: 0;
-    border: solid .2rem white;
+   
    
 }
 
 .museum-container{
     background-color: steelblue;
     width: 96%;
-    border: solid .2rem white;
+    
 }
 
 .history p{
