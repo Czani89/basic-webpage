@@ -28,3 +28,27 @@ h1{
     text-align: center;
     color: white;
 }
+@media(max-width: 800px){
+    .pages{
+        display: flex;
+       flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-top: 6rem;
+        
+        
+    }
+
+    a{
+        padding: 2rem 5rem;
+        background-color: steelblue;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        border-radius: 5rem ;
+        margin: 4rem
+        
+    }
+
+}
