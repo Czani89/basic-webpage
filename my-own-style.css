@@ -116,3 +116,13 @@ h2{
 h1{
     width: 50%;
 }
+/* 
+@media(min-width:720px){
+
+    .history{
+        display: flex;
+    }
+    .history p{
+        font-size: 75%;
+    }
+} */
